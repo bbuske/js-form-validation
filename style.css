@@ -1,3 +1,8 @@
+form#regForm {
+    width: 500px;
+    margin-left: 10px;
+    padding: 10px;
+}
 span.required {
     font-size: small;
     color:#ff0011;
