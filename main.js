@@ -1,6 +1,5 @@
 // Create An Event
 function register(e) {
-
     e.preventDefault();
     // Declare Variables For All The Form Fields
     let name = document.getElementById('name').value;
