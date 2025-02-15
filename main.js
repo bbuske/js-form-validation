@@ -28,7 +28,7 @@ function register(e) {
                 msg.innerHTML = 'Please use a valid email address!';
             } else {
                 // Check If The Entered Password Match
-                if (pwd !== confirm-pwd2) {
+                if (pwd !== pwd2) {
                     msg.className = 'alert alert-danger';
                     msg.innerHTML = 'Error: Passwords don\'t match';
                 // If Everything Goes Well, Show Success Message
